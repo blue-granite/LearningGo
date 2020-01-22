@@ -6,5 +6,5 @@ import (
 )
 
 func Packages() {
-	fmt.Println("My favorite number is", rand.Intn(10))
+	fmt.Println("Example of importing packages and sub-packages. My favorite number is", rand.Intn(10))
 }
