@@ -6,6 +6,7 @@ import (
 
 func Exported() {
 	fmt.Println("This func is EXPORTED and visible to other packages.")
+	fmt.Println("This func is EXPORTED and visible to other packages.")
 }
 
 func notExported() {

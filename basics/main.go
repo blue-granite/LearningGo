@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 import "github.com/blue-granite/LearningGo/basics/basic"
+import "github.com/blue-granite/LearningGo/basics/flow"
 
 func main() {
 	fmt.Println("Basics")
@@ -9,7 +10,9 @@ func main() {
 	basic.Packages()
 	basic.Imports()
 	basic.Exported()
-	basic.FuncNone()
-	basic.FuncTwo(1, 2)
-	basic.FuncParamShareType(3, 4)
+	basic.Functions()
+	basic.Variables()
+	basic.Constants()
+	basic.Types()
+	flow.For()
 }
