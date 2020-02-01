@@ -3,11 +3,14 @@ package advanced
 import "fmt"
 import "reflect"
 
+/*
+see advanced.vertex.go
 type Vertex struct {
 	X int
 	Y int
 	z int
 }
+*/
 
 func Structs() {
 	fmt.Println("A struct is a collection of fields.", Vertex{1, 2, 3})
