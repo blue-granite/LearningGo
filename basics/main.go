@@ -4,6 +4,8 @@ import "fmt"
 import "github.com/blue-granite/LearningGo/basics/basic"
 import "github.com/blue-granite/LearningGo/basics/flow"
 import "github.com/blue-granite/LearningGo/basics/advanced"
+import "github.com/blue-granite/LearningGo/basics/methodsandinterfaces"
+import "github.com/blue-granite/LearningGo/basics/goroutines"
 
 const LINE = "---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 
@@ -54,4 +56,14 @@ func main() {
 	advanced.Ranges()
 	line()
 	advanced.Maps()
+	line()
+	advanced.Functions()
+	line()
+	methodsandinterfaces.Methods()
+	line()
+	methodsandinterfaces.Interfaces()
+	line()
+	goroutines.GoRoutines()
+	line()
+	goroutines.Mutexes()
 }

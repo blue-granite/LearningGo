@@ -15,7 +15,7 @@ type Vertex struct {
 func Structs() {
 	fmt.Println("A struct is a collection of fields.", Vertex{1, 2, 3})
 	fmt.Println("Unitialised struct fields have their zero value.", Vertex{})
-	fmt.Println("A struct initialised using named fields (any order).", Vertex{z: 11, X: 22, Y: 33})
+	fmt.Println("A struct initialised using named fields (any order).", Vertex{Z: 11, X: 22, Y: 33})
 
 	v := Vertex{1, 2, 3}
 	v.X = 4
